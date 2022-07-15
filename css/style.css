@@ -1,0 +1,254 @@
+
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 60px;
+    background: linear-gradient(100.51deg, #4EBEFE 0%, #378FD9 100%);
+    color: #fff;
+    padding-bottom: 93px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offer {
+    width: 548px;
+}
+
+.title {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 49px;
+}
+
+.subtitle {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 43px;
+    width: 390px;
+}
+
+.title span {
+    font-size: 55px;
+}
+
+.btn {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 27px;
+    color: #000000;
+    width: 222px;
+    height: 56px;
+    background: #FFD429;
+    padding: 15px 28px;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    background: #caa81e;
+}
+
+.first-screen {
+    margin-top: 60px;
+}
+
+.waiting {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.section-title {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.examples {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+}
+
+.example {
+    width: 283px;
+    background: url(../img/icons-first.png) no-repeat center top;
+    padding-top: 55px;
+}
+
+.example-title {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.example-subtitle {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 100px;
+}
+
+.example-travel {
+    width: 258px;
+    background: url(../img/icons-second.png) no-repeat center top;
+}
+
+.example-values {
+    width: 293px;
+    background: url(../img/icons-third.png) no-repeat center top;
+}
+
+.order {
+    background: #ECF3F8;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.input {
+    width: 340px;
+    height: 56px;
+    background: #FFFFFF;
+    border: 1px solid #C9C9C9;
+    border-radius: 3px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #9F9EA2;
+    padding-left: 30px;
+    margin-bottom: 16px;
+}
+
+.btn-order {
+    width: 376px;
+    height: 56px;
+    border: 1px solid #C9C9C9;
+}
+
+.footer {
+    padding: 58px 0;
+    background: #164D7A;
+    
+}
+
+.dreem-subtitle {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+}
+@media screen and (max-width:1200px) {
+    .container {
+        width: 960px;
+    }
+    .title span{
+        color: #eeb3e5;
+    }
+    .btn {
+        background:#eeb3e5 ;
+    }
+}
+@media screen and (max-width:992px) {
+    .container {
+        width: 720px;
+    }
+    .wrapper {
+        flex-direction: column;
+
+    }
+    .offer {
+        width: 100%;
+    }
+    .subtitle {
+        width: auto;
+    }
+    .title span{
+        color: #2f992c;
+    }
+    .btn {
+        background:#2f992c ;
+    }
+    .first-screen {
+        display: block;
+        width: 100%;
+        margin: 72px auto 0;
+    }
+    .examples {
+        justify-content: space-between;
+
+    }
+}
+@media screen and (max-width:768px) {
+    .container {
+        width: 540px;
+    }
+    .title span{
+        color: #9F9EA2;
+    }
+    .examples {
+        flex-direction: column;
+    }
+    .example {
+        width: auto;
+        margin-bottom: 30px;
+    }
+    .example-travel{
+        margin-bottom: 10px;
+    }
+    .btn {
+        background: #9F9EA2;
+    }
+    .first-screen {
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width:576px) {
+    .container {
+        width: 90%;
+    }
+    .title span{
+        color: #251e38;
+    }
+    .btn {
+        background: #251e38;
+        color: #fff;
+    }
+}
